@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: zhaoqin-app2
+  host: zhaoqin-app2
+  disk_quota: 128M
+  env:
+    DB_ACCOUNT: 3fd28e78-a878-4380-b06e-bcc7ba1a3b9e-bluemix
+    DB_USER: tersonerhounbodisheativi
+    DB_PASS: dd3fe418a3b466441fba2f58eef218eba5a7a6f3
