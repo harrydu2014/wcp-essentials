@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: zhaoqin-app3
+  host: zhaoqin-app3
+  disk_quota: 128M
+  env:
+    USER: e5b0d88d-f22b-4613-86a7-97cd9791500b
+    PASS: BMNhetrFT4uJ
+    WORKSPACE: 011b1b27-24b2-46c3-a0d7-2bf7da595c83
